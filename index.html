@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Rose Studio Fryzur | Luksusowy Salon Fryzjerski</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Nawigacja -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✿</span>
+                Bella Rose
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Strona główna</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#services">Usługi</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#team">Zespół</a></li>
+                <li><a href="#testimonials">Opinie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <a href="#booking" class="btn btn-nav">Umów wizytę</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sekcja Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Witamy w Bella Rose</p>
+            <h1 class="hero-title">Gdzie Piękno<br>Spotyka Elegancję</h1>
+            <p class="hero-description">Doświadcz sztuki stylizacji włosów w naszym luksusowym salonie.
+                Tworzymy wyjątkowe fryzury, które odzwierciedlają Twoją niepowtarzalną osobowość.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Umów wizytę</a>
+                <a href="#services" class="btn btn-secondary">Nasze usługi</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-frame">
+                <img src="salon.png" alt="Piękna fryzura">
+                <div class="floating-card card-1">
+                    <i class="fas fa-star"></i>
+                    <span>Ocena 5.0</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-heart"></i>
+                    <span>2000+ Zadowolonych klientek</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pasek funkcji -->
+    <section class="features-bar">
+        <div class="container">
+            <div class="feature">
+                <i class="fas fa-award"></i>
+                <div>
+                    <h4>Nagradzany salon</h4>
+                    <p>Najlepszy salon 2024</p>
+                </div>
+            </div>
+            <div class="feature">
+                <i class="fas fa-leaf"></i>
+                <div>
+                    <h4>Naturalne produkty</h4>
+                    <p>100% Organiczne</p>
+                </div>
+            </div>
+            <div class="feature">
+                <i class="fas fa-gem"></i>
+                <div>
+                    <h4>Usługi premium</h4>
+                    <p>Luksusowe doświadczenie</p>
+                </div>
+            </div>
+            <div class="feature">
+                <i class="fas fa-clock"></i>
+                <div>
+                    <h4>Elastyczne godziny</h4>
+                    <p>Otwarte 7 dni w tygodniu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja O nas -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-images">
+                <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400" alt="Wnętrze salonu"
+                    class="about-img-1">
+                <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400" alt="Stylizacja włosów"
+                    class="about-img-2">
+                <div class="experience-badge">
+                    <span class="years">15+</span>
+                    <span class="text">Lat doświadczenia</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="section-subtitle">O nas</p>
+                <h2 class="section-title">Sanktuarium Stylu i Piękna</h2>
+                <p class="about-text">
+                    W Bella Rose Studio Fryzur wierzymy, że każda kobieta zasługuje na to, by czuć się piękna.
+                    Nasz zespół ekspertów łączy artyzm z najnowszymi technikami, aby tworzyć
+                    fryzury wyjątkowe, dopasowane właśnie do Ciebie.
+                </p>
+                <p class="about-text">
+                    Od klasycznych cięć po odważne metamorfozy - jesteśmy oddani spełnianiu
+                    Twoich marzeń o idealnych włosach w ciepłej, przyjaznej atmosferze.
+                </p>
+                <ul class="about-features">
+                    <li><i class="fas fa-check-circle"></i> Indywidualne konsultacje</li>
+                    <li><i class="fas fa-check-circle"></i> Profesjonalne produkty</li>
+                    <li><i class="fas fa-check-circle"></i> Relaksująca atmosfera</li>
+                    <li><i class="fas fa-check-circle"></i> Eksperci koloryzacji</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Dowiedz się więcej</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Usługi -->
+    <section id="services" class="services">
+        <div class="container">
+            <p class="section-subtitle">Nasze usługi</p>
+            <h2 class="section-title">Spersonalizowane Doświadczenia Piękna</h2>
+            <p class="section-description">Odkryj naszą gamę profesjonalnych usług fryzjerskich zaprojektowanych, aby
+                podkreślić Twoje naturalne piękno</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Strzyżenie i stylizacja</h3>
+                    <p>Precyzyjne cięcia dopasowane do kształtu Twojej twarzy i stylu życia - od klasycznych bobów po
+                        nowoczesne warstwy.</p>
+                    <span class="price">Od 120 zł</span>
+                    <a href="#booking" class="service-link">Umów wizytę <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Popularne</div>
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Koloryzacja i pasemka</h3>
+                    <p>Od subtelnego balayage po odważne metamorfozy - nasi eksperci koloryzacji tworzą oszałamiające
+                        efekty.</p>
+                    <span class="price">Od 250 zł</span>
+                    <a href="#booking" class="service-link">Umów wizytę <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Zabiegi regenerujące</h3>
+                    <p>Przywróć włosom zdrowie dzięki naszym luksusowym zabiegom głęboko odżywczym i keratynowym.</p>
+                    <span class="price">Od 180 zł</span>
+                    <a href="#booking" class="service-link">Umów wizytę <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Modelowanie</h3>
+                    <p>Uzyskaj salonową perfekcję dzięki naszym profesjonalnym usługom modelowania i stylizacji.</p>
+                    <span class="price">Od 80 zł</span>
+                    <a href="#booking" class="service-link">Umów wizytę <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Stylizacja ślubna</h3>
+                    <p>Uczyń swój wyjątkowy dzień idealnym dzięki naszym pakietom fryzur ślubnych i próbnym stylizacjom.
+                    </p>
+                    <span class="price">Od 400 zł</span>
+                    <a href="#booking" class="service-link">Umów wizytę <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Przedłużanie włosów</h3>
+                    <p>Dodaj długości i objętości dzięki naszym najwyższej jakości przedłużeniom włosów.</p>
+                    <span class="price">Od 800 zł</span>
+                    <a href="#booking" class="service-link">Umów wizytę <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Galeria -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <p class="section-subtitle">Nasze prace</p>
+            <h2 class="section-title">Galeria stylizacji</h2>
+            <p class="section-description">Przeglądaj nasze portfolio oszałamiających metamorfoz</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600" alt="Fryzura 1">
+                    <div class="gallery-overlay">
+                        <span>Balayage</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1554519515-242161756769?w=400" alt="Fryzura 2">
+                    <div class="gallery-overlay">
+                        <span>Koloryzacja</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400" alt="Fryzura 3">
+                    <div class="gallery-overlay">
+                        <span>Stylizacja</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400" alt="Fryzura 4">
+                    <div class="gallery-overlay">
+                        <span>Strzyżenie</span>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=600" alt="Fryzura 5">
+                    <div class="gallery-overlay">
+                        <span>Ślubna</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Zespół -->
+    <section id="team" class="team">
+        <div class="container">
+            <p class="section-subtitle">Poznaj nasz zespół</p>
+            <h2 class="section-title">Eksperci stylizacji</h2>
+            <p class="section-description">Nasz utalentowany zespół profesjonalistów</p>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="woman.jpg" alt="Stylistka 1">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <h3>Zofia Wudyka</h3>
+                    <p>Dyrektor kreatywna</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400" alt="Stylistka 2">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <h3>Emilia Wiśniewska-Pelczarska</h3>
+                    <p>Starsza kolorystka</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400" alt="Stylistka 3">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <h3>Oliwia Mazur</h3>
+                    <p>Stylistka włosów</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400" alt="Stylistka 4">
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <h3>Izabela Curuś</h3>
+                    <p>Specjalistka ślubna</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Opinie -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <p class="section-subtitle">Opinie</p>
+            <h2 class="section-title">Co mówią nasze klientki</h2>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Absolutnie uwielbiam mój nowy kolor! Zofia dokładnie zrozumiała, czego
+                        chciałam i przerosła moje oczekiwania. Salon jest przepiękny, a obsługa nienaganna."</p>
+                    <div class="testimonial-author">
+                        <img src="testim3.png" Klientka">
+                        <div>
+                            <h4>Anna Jankowska</h4>
+                            <span>Stała klientka</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Moja fryzura ślubna była absolutnie idealna! Zespół sprawił, że
+                        poczułam się jak księżniczka w ten wyjątkowy dzień. Nie mogłam wymarzyć sobie lepszego
+                        doświadczenia."</p>
+                    <div class="testimonial-author">
+                        <img src="testim2.png" alt="Klientka">
+                        <div>
+                            <h4>Zosia Dąbrowska</h4>
+                            <span>Klientka ślubna</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"W końcu znalazłam swój ulubiony salon! Dbałość o szczegóły i
+                        indywidualne podejście są wyjątkowe. Moje włosy nigdy nie wyglądały zdrowiej."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100" alt="Klientka">
+                        <div>
+                            <h4>Magdalena Wójcik</h4>
+                            <span>Stała klientka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Rezerwacja -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="booking-content">
+                <p class="section-subtitle">Rezerwacja</p>
+                <h2 class="section-title">Zaplanuj swoją wizytę</h2>
+                <p class="section-description">Gotowa na metamorfozę? Umów wizytę już dziś.</p>
+
+                <form class="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Imię i nazwisko</label>
+                            <input type="text" id="name" placeholder="Wpisz swoje imię" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adres e-mail</label>
+                            <input type="email" id="email" placeholder="Wpisz swój e-mail" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Numer telefonu</label>
+                            <input type="tel" id="phone" placeholder="Wpisz numer telefonu">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Wybierz usługę</label>
+                            <select id="service" required>
+                                <option value="">Wybierz usługę</option>
+                                <option value="haircut">Strzyżenie i stylizacja</option>
+                                <option value="color">Koloryzacja i pasemka</option>
+                                <option value="treatment">Zabiegi regenerujące</option>
+                                <option value="blowout">Modelowanie</option>
+                                <option value="bridal">Stylizacja ślubna</option>
+                                <option value="extensions">Przedłużanie włosów</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Preferowana data</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferowana godzina</label>
+                            <select id="time" required>
+                                <option value="">Wybierz godzinę</option>
+                                <option value="9:00">9:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Specjalne życzenia</label>
+                        <textarea id="message" rows="4" placeholder="Dodatkowe uwagi lub życzenia..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Umów wizytę</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Kontakt -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-info">
+                <p class="section-subtitle">Kontakt</p>
+                <h2 class="section-title">Odwiedź nasz salon</h2>
+                <p class="contact-description">Chętnie odpowiemy na Twoje pytania. Odwiedź nas, zadzwoń lub napisz
+                    wiadomość.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adres</h4>
+                            <p>ul. Szkolna 35, lokal 2<br>63-460 Fabianów</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p>+48 793 673 509</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>kontakt@bellarose.pl</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Godziny otwarcia</h4>
+                            <p>Pon - Pt: 9:00 - 19:00<br>Sob - Niedz: 10:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps?q=ul.%20Szkolna%2035%2C%20lokal%202%2C%2063-410%20%C5%81amki%2C%20Poland&output=embed"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">✿</span>
+                        Bella Rose
+                    </a>
+                    <p>Gdzie piękno spotyka elegancję. Doświadcz sztuki stylizacji włosów w naszym luksusowym salonie.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Szybkie linki</h4>
+                    <ul>
+                        <li><a href="#home">Strona główna</a></li>
+                        <li><a href="#about">O nas</a></li>
+                        <li><a href="#services">Usługi</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Usługi</h4>
+                    <ul>
+                        <li><a href="#">Strzyżenie</a></li>
+                        <li><a href="#">Koloryzacja i pasemka</a></li>
+                        <li><a href="#">Zabiegi regenerujące</a></li>
+                        <li><a href="#">Stylizacja ślubna</a></li>
+                        <li><a href="#">Przedłużanie włosów</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Zapisz się, aby otrzymywać porady urodowe i ekskluzywne oferty.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Twój adres e-mail">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bella Rose Studio Fryzur. Wszelkie prawa zastrzeżone.</p>
+                <div class="footer-legal">
+                    <a href="#">Polityka prywatności</a>
+                    <a href="#">Regulamin</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Efekt przewijania nawigacji
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Przełącznik menu mobilnego
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
